@@ -1,0 +1,96 @@
+        *
+        {  
+          box-sizing: border-box;
+            font-family:arial sans-serif;
+            list-style:none;
+        }
+        h1 
+        {
+          text-decoration: underline;
+        }
+        header
+        {
+            background:coral;
+            height:250px;
+            display:block;
+            margin-bottom:70px;
+            position:static;
+        }
+        nav > ul
+        {
+            display:inline-block;
+            display:flex;
+            justify-content:center;
+        }
+        ul :hover
+          {
+             background:orange;
+            font-size:120%;
+          }
+        ul > li
+        {
+            color:white;
+            margin:30px 0px 0px 40px;
+        }
+        header > img
+        {
+            width: 250px;
+            height: 250px;
+             border-radius: 50%;
+            overflow: hidden;
+            border: 1px solid;
+            margin-bottom:-200px;
+           margin-left:250px
+        }
+        
+      
+        .descrp,.link
+         {
+            color:white;
+            display:block;
+           float:right;
+           margin-right:100px;
+           
+         }
+          
+          .main
+           {  
+             margin-left:20px ;
+            display:inline-block;
+             display: grid;
+            grid-template-columns: 60% 40%;
+              gap: 20px;
+           }
+        .about >h1 , .overview > h1
+          {
+           text-decoration:underline;
+            border-left:10px solid purple;
+          }
+          .about > p >span
+         {
+         display: block;
+         color:gray;
+         }
+         .overview >p > span
+          {
+            display:block;
+            color:gray;
+          }
+           .projects
+            {  
+              margin-left: 20px;
+            display: grid;
+          grid-template-columns: 1fr 1fr 1fr;
+               gap: 20px;
+            }
+         
+          .projects >div > img
+             {  
+               text-align: center;
+               height: 200px;
+               width:200px ;
+             }
+           .projects  :hover>  img
+           {
+             filter: blur(2px);
+           }
